@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+div input {
+    padding: 5px;
+}
+
+div input:active {
+    border: 2px solid #42C2FF;
+}
+
+.submit_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit {
+    font-weight: 700;
+    margin-top: 10px;
+    border: none;
+    background-color: #42C2FF;
+    border-radius: 50px;
+    padding: 8px 20px;
+    color: white;
+    transition: all 300ms ease-out;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #2faae2;
+}
